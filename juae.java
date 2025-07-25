@@ -11,8 +11,7 @@ public class juae {
     int num2= scanner.nextInt();
 
   int sum = num1 +num2; 
-  System.out.println( "Sum = "+sum );
-  
+  System.out.println( "Result of  = "+sum );
   }
  
 
