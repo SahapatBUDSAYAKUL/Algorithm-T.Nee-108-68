@@ -7,7 +7,7 @@ public class Q1 {
     System.out.print("Enter radius num1:");
     int num1 = scanner.nextInt();
     final double PI = 3.14159 ;
-    int area = 
+    int area = PI+num1+num1
 
     }
     }
