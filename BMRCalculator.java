@@ -4,7 +4,7 @@ public class BMRCalculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // รับค่าเพศ น้ำหนัก ส่วนสูง และอายุ
+        
         System.out.print("Enter gender (M/F): ");
         String gender = sc.nextLine();
         System.out.print("Enter weight (kg): ");
@@ -16,7 +16,7 @@ public class BMRCalculator {
 
         double bmr;
 
-        // ตรวจสอบเพศแล้วคำนวณ
+        
         if (gender.equalsIgnoreCase("M")) {
             bmr = 66 + (13.7 * weight) + (5 * height) - (6.8 * age);
         } else if (gender.equalsIgnoreCase("F")) {
@@ -26,7 +26,7 @@ public class BMRCalculator {
             return;
         }
 
-        // แสดงผลลัพธ์
+        
         System.out.println("Your BMR is: " + bmr + " kcal/day");
     }
 }
